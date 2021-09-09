@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Share+Tech+Mono&display=swap');
+.about {
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.about__name {
+    color: var(--clr-primary);
+    position: relative;
+}
+
+.about__role {
+    margin-top: 1.2em;
+}
+
+.about__desc {
+    font-size: 1rem;
+    max-width: 600px;
+}
+
+.about__desc,
+.about__contact {
+    margin-top: 2.4em;
+}
+
+.about .link--icon {
+    margin-right: 0.8em;
+}
+
+.about .btn--outline {
+    margin-right: 1em;
+}
+
+
+/* animation */
+
+h1 span {
+    font-family: 'Share Tech Mono', monospace;
+}
+
+span {
+    --typewritersteps: 13;
+    --typewriterspeed: 4s;
+}
+
+span::before,
+span::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+span::before {
+    background-color: var(--clr-bg);
+    animation: typewriter var(--typewriterspeed) steps(var(--typewritersteps)) 1s forwards;
+}
+
+span::after {
+    width: .125em;
+    background: var(--clr-primary);
+    animation: typewriter var(--typewriterspeed) steps(var(--typewritersteps)) 1s forwards, blinker 700ms steps(var(--typewritersteps)) infinite;
+}
+
+
+/* keyframes */
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blinker {
+    to {
+        background: transparent;
+    }
+}
+
+
+/* media queries */
+
+@media (max-width: 600px) {
+    .app .about {
+        align-items: flex-start;
+        margin-top: 2em;
+    }
+    h1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
