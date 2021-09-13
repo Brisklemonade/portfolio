@@ -11,7 +11,7 @@ const about = {
   description:
     "I'm a self-taught software developer and UI designer living in Dallas TX. I love taking Ideas and turning them into web & native applications! I don't just spend all of my time coding though. I love to play games with my friends, cook, create videos for tik tok and many other things. Anyways, check out some of my projects and skills below",
   resume:
-    'https://docs.google.com/document/d/1p0ucLXTWrmxI4OdPvM8rjJu3AnPahxb4aSMekpe9juk/edit?usp=sharing',
+    'https://drive.google.com/file/d/14KfE1lBO9xrKLRqrSzcY0-yveuNMvYvH/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/kamell-perry-749952219',
     github: 'https://github.com/Brisklemonade/Brisklemonade.git',
@@ -25,7 +25,7 @@ const projects = [
   {
     name: 'Portfolio Site',
     description:
-      'This portfolio was created to showcase my work as well as a bit of who am I and my personality. This is just the beginning, it will continue to be updated!',
+      'This portfolio was created to showcase my work as well as a bit of who I am and my personality. This is just the beginning, it will continue to be updated!',
     stack: ['React', 'React Hooks', 'Context', 'API', 'Material UI'],
     sourceCode: 'https://github.com/Brisklemonade/portfolio.git',
     livePreview: '/',
@@ -46,6 +46,14 @@ const projects = [
     sourceCode: 'https://github.com/Brisklemonade/crypto-pricetracker-app.git',
     livePreview: 'https://vimeo.com/600758369',
   },
+  {
+    name: 'NextJs Podex',
+    description:
+      'A Pokedex made with NextJs that uses the PokeAPI to retrieve the pokemon data.',
+    stack: ['NextJs', 'Tailwind CSS', 'PokeAPI'],
+    sourceCode: 'https://github.com/Brisklemonade/pokedex-with-next.git',
+    livePreview: 'https://pokedex-with-next.vercel.app/',
+  },
 ]
 
 const skills = [
@@ -59,6 +67,7 @@ const skills = [
   'TypeScript',
   'React',
   'React Native',
+  'Nextjs',
   'SASS',
   'Material UI',
   'Git',
