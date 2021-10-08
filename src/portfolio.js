@@ -20,7 +20,7 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
+  // projects can be added and removed
   // if there are no projects, Projects section won't show up
   {
     name: 'Portfolio Site',
@@ -31,12 +31,12 @@ const projects = [
     livePreview: '/',
   },
   {
-    name: 'Quote Generator',
+    name: 'Generator Dashboard',
     description:
-      "A website made with react that generates random quotes & inspiration. You never know what you're going to get, but I'm sure you'll be amused.",
-    stack: ['React', 'Axios', 'React Hooks'],
-    sourceCode: 'https://github.com/Brisklemonade/quote-generator.git',
-    livePreview: 'https://brisklemonade.github.io/quote-generator/',
+      "A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*",
+    stack: ['React', 'NextJs', 'TailwindCSS, Axios'],
+    sourceCode: '/',
+    livePreview: '/',
   },
   {
     name: 'Crypto Tracking App',
@@ -47,7 +47,7 @@ const projects = [
     livePreview: 'https://vimeo.com/600758369',
   },
   {
-    name: 'NextJs Podex',
+    name: 'NextJs Pokedex',
     description:
       'A Pokedex made with NextJs that uses the PokeAPI to retrieve the pokemon data.',
     stack: ['NextJs', 'Tailwind CSS', 'PokeAPI'],
@@ -61,6 +61,7 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'SASS',
   'Bootstrap',
   'Tailwind CSS',
   'JavaScript',
@@ -68,10 +69,12 @@ const skills = [
   'React',
   'React Native',
   'Nextjs',
-  'SASS',
+  'Node Js',
   'Material UI',
   'Git',
   'GitHub',
+  'Mocha',
+  'Jest',
 ]
 
 const contact = {

@@ -3,8 +3,9 @@
     padding: 2em;
     margin: 0 auto;
     text-align: center;
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-stripe);
     transition: transform 0.2s linear;
+    border-radius: 15px;
 }
 
 .project:hover {

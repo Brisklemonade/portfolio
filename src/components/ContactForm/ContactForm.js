@@ -37,6 +37,7 @@ function ContactForm() {
               className='form-control'
               placeholder='Name'
               name='name'
+              required
             />
           </div>
           <div className='email'>
@@ -45,6 +46,7 @@ function ContactForm() {
               className='form-control'
               placeholder='Email Address'
               name='email'
+              required
             />
           </div>
           <div className='subject'>
@@ -53,6 +55,7 @@ function ContactForm() {
               className='form-control'
               placeholder='Subject'
               name='subject'
+              required
             />
           </div>
           <div className='message'>
@@ -63,6 +66,7 @@ function ContactForm() {
               rows='8'
               placeholder='Your message'
               name='message'
+              required
             />
           </div>
           <div className='submit'>

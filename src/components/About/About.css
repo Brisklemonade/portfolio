@@ -79,9 +79,7 @@ span::after {
     }
 }
 
-
 /* media queries */
-
 @media (max-width: 600px) {
     .app .about {
         align-items: flex-start;
