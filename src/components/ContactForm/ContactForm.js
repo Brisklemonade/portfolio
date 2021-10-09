@@ -8,10 +8,10 @@ function ContactForm() {
 
     emailjs
       .sendForm(
-        'service_dnv1bra',
-        'template_yavedw8',
+        process.env.REACT_APP_SERVICE_KEY,
+        process.env.REACT_APP_TEMPLATE_KEY,
         e.target,
-        'user_McaeHnh5Lt2gtRBQmxl6h'
+        process.env.REACT_APP_API_KEY
       )
       .then(
         (result) => {

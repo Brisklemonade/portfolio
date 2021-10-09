@@ -33,7 +33,7 @@ const projects = [
   {
     name: 'Generator Dashboard',
     description:
-      "A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*",
+      'A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*',
     stack: ['React', 'NextJs', 'TailwindCSS, Axios'],
     sourceCode: '/',
     livePreview: '/',
@@ -51,8 +51,8 @@ const projects = [
     description:
       'A Pokedex made with NextJs that uses the PokeAPI to retrieve the pokemon data.',
     stack: ['NextJs', 'Tailwind CSS', 'PokeAPI'],
-    sourceCode: 'https://github.com/Brisklemonade/pokedex-with-next.git',
-    livePreview: 'https://pokedex-with-next.vercel.app/',
+    sourceCode: 'https://github.com/Brisklemonade/pokedex-nextjs.git',
+    livePreview: 'https://pokedex-nextjs-ecru.vercel.app/',
   },
 ]
 
