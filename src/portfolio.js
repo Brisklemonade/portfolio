@@ -16,6 +16,7 @@ const about = {
     linkedin: 'https://www.linkedin.com/in/kamell-perry-749952219',
     github: 'https://github.com/Brisklemonade/Brisklemonade.git',
     instagram: 'https://instagram.com/uxtitan_',
+    tiktok: 'https://tiktok.com/@uxtitan',
   },
 }
 
@@ -31,12 +32,12 @@ const projects = [
     livePreview: '/',
   },
   {
-    name: 'Generator Dashboard',
+    name: 'Svelte Kit Pokedex',
     description:
-      'A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*',
-    stack: ['React', 'NextJs', 'TailwindCSS, Axios'],
-    sourceCode: '/',
-    livePreview: '/',
+      'A Pokedex made with Svelte Kit that uses the PokeAPI to retrieve various pokemon data.',
+    stack: ['Svelte', 'PokedexAPI', 'TailwindCSS'],
+    sourceCode: 'https://github.com/Brisklemonade/sveltekit-pokedex.git',
+    livePreview: 'https://sveltekit-pokedex-chi.vercel.app/',
   },
   {
     name: 'Crypto Tracking App',
@@ -47,13 +48,21 @@ const projects = [
     livePreview: 'https://vimeo.com/600758369',
   },
   {
-    name: 'NextJs Pokedex',
+    name: 'Generator Dashboard',
     description:
-      'A Pokedex made with NextJs that uses the PokeAPI to retrieve the pokemon data.',
-    stack: ['NextJs', 'Tailwind CSS', 'PokeAPI'],
-    sourceCode: 'https://github.com/Brisklemonade/pokedex-nextjs.git',
-    livePreview: 'https://pokedex-nextjs-ecru.vercel.app/',
+      'A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*',
+    stack: ['React', 'NextJs', 'TailwindCSS, Axios'],
+    sourceCode: '/',
+    livePreview: '/',
   },
+  // {
+  //   name: 'NextJs Pokedex',
+  //   description:
+  //     'A Pokedex made with NextJs that uses the PokeAPI to retrieve the pokemon data.',
+  //   stack: ['NextJs', 'Tailwind CSS', 'PokeAPI'],
+  //   sourceCode: 'https://github.com/Brisklemonade/pokedex-nextjs.git',
+  //   livePreview: 'https://pokedex-nextjs-ecru.vercel.app/',
+  // },
 ]
 
 const skills = [
@@ -69,6 +78,7 @@ const skills = [
   'React',
   'React Native',
   'Nextjs',
+  'Svelte',
   'Node Js',
   'Material UI',
   'Git',
