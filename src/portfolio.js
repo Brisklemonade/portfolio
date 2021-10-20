@@ -11,7 +11,7 @@ const about = {
   description:
     "I'm a self-taught software developer and UI designer living in Dallas TX. I love taking Ideas and turning them into web & native applications! I don't just spend all of my time coding though. I love to play games with my friends, cook, create videos for tik tok and many other things. Anyways, check out some of my projects and skills below",
   resume:
-    'https://drive.google.com/file/d/14KfE1lBO9xrKLRqrSzcY0-yveuNMvYvH/view?usp=sharing',
+    'https://drive.google.com/file/d/1R4ufyTpxfFS2n_UxwfMgsxO8llUdqckB/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/kamell-perry-749952219',
     github: 'https://github.com/Brisklemonade/Brisklemonade.git',
@@ -80,7 +80,7 @@ const skills = [
   'Nextjs',
   'Svelte',
   'Node Js',
-  'Material UI',
+  'AWS',
   'Git',
   'GitHub',
   'Mocha',
