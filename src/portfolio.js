@@ -47,14 +47,14 @@ const projects = [
     sourceCode: 'https://github.com/Brisklemonade/crypto-pricetracker-app.git',
     livePreview: 'https://vimeo.com/600758369',
   },
-  {
-    name: 'Generator Dashboard',
-    description:
-      'A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*',
-    stack: ['React', 'NextJs', 'TailwindCSS, Axios'],
-    sourceCode: '/',
-    livePreview: '/',
-  },
+  // {
+  //   name: 'Generator Dashboard',
+  //   description:
+  //     'A web application dashboard that contains many generators with API calls. It also has form validation along with user authentication, and more features. *The site is currently down due to issues that will be resolved as soon as possible*',
+  //   stack: ['React', 'NextJs', 'TailwindCSS, Axios'],
+  //   sourceCode: '/',
+  //   livePreview: '/',
+  // },
   // {
   //   name: 'NextJs Pokedex',
   //   description:
